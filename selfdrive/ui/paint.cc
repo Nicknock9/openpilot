@@ -128,12 +128,12 @@ static void draw_lead(UIState *s, const cereal::RadarState::LeadData::Reader &le
     }
     fillAlpha = (int)(fmin(fillAlpha, 255));
   }
-  if (s->longitudinal_control) {
+ // if (s->longitudinal_control) {
     draw_chevron(s, d_rel + 3, lead.getYRel(), 25, nvgRGBA(201, 34, 49, fillAlpha), COLOR_YELLOW);
-  }
-  else {
-    draw_chevron(s, d_rel + 3, lead.getYRel(), 25, nvgRGBA(165, 255, 135, fillAlpha), COLOR_GREEN);
-  }
+ // }
+ // else {
+ //   draw_chevron(s, d_rel + 3, lead.getYRel(), 25, nvgRGBA(165, 255, 135, fillAlpha), COLOR_GREEN);
+ // }
 }
 
 static void ui_draw_lane_line(UIState *s, const model_path_vertices_data *pvd, NVGcolor color) {
@@ -429,7 +429,7 @@ static void ui_draw_vision_speed(UIState *s) {
     nvgLineTo(s->vg, viz_speed_x - viz_speed_w/2, viz_rect.y + header_h/4 + header_h/4);
     nvgLineTo(s->vg, viz_speed_x, viz_rect.y + header_h/2 + header_h/4);
     nvgClosePath(s->vg);
-    nvgFillColor(s->vg, nvgRGBA(23,134,68,scene->blinker_blinkingrate>=50?210:60));
+    nvgFillColor(s->vg, nvgRGBA(255,153,0,scene->blinker_blinkingrate>=50?210:60));
     nvgFill(s->vg);
   }
   if(scene->rightBlinker) {
@@ -438,7 +438,7 @@ static void ui_draw_vision_speed(UIState *s) {
     nvgLineTo(s->vg, viz_speed_x+viz_speed_w + viz_speed_w/2, viz_rect.y + header_h/4 + header_h/4);
     nvgLineTo(s->vg, viz_speed_x+viz_speed_w, viz_rect.y + header_h/2 + header_h/4);
     nvgClosePath(s->vg);
-    nvgFillColor(s->vg, nvgRGBA(23,134,68,scene->blinker_blinkingrate>=50?210:60));
+    nvgFillColor(s->vg, nvgRGBA(255,153,0,scene->blinker_blinkingrate>=50?210:60));
     nvgFill(s->vg);
     }
   if(scene->leftBlinker || scene->rightBlinker) {
