@@ -274,7 +274,7 @@ DBC = {
   CAR.KONA: dbc_dict('hyundai_kia_generic', None),
   CAR.KONA_EV: dbc_dict('hyundai_kia_generic', None),
   CAR.KONA_HEV: dbc_dict('hyundai_kia_generic_hybrid', None),
-  CAR.SANTA_FE_2017: dbc_dict('hyundai_kia_generic', None),
+  CAR.SANTA_FE_2017: dbc_dict('hyundai_fork_santa_fe_2017', None),
   CAR.SANTA_FE: dbc_dict('hyundai_kia_generic', None),
   CAR.SONATA: dbc_dict('hyundai_kia_generic', None),
   CAR.SONATA_HEV: dbc_dict('hyundai_kia_generic_hybrid', None),
