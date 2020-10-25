@@ -35,6 +35,105 @@ BS_:
 
 BU_: XXX CLOCK HUD H_U DATC CCP KMA_TMU CUBIS TMU IPM RSE_R RRC CGW RSE_L AMP EDT SWRC IBOX CLU FHCU ASD MON AVM KBD IAP ODS _4WD BCM MDPS AAF_Tester AEMC SMK EPB MTS EVP TPMS LPI DI_BOX SPAS EMS LCA TCU FATC AFLS FPCM SCC AHLS ABS SNV OPI PGS SAS AAF Dummy LDWS_LKAS LVR ESC PSB ECS ACU REA
 
+BO_ 1345 CGW1: 8 BCM
+ SG_ CF_Gway_IGNSw : 0|3@1+ (1.0,0.0) [0.0|7.0] ""  AVM,CLU,ECS,EMS,EPB,ESC,IBOX,LVR,MDPS,SAS,SCC,ECS,EMS,EPB,ESC,IBOX,LVR,MDPS,SAS,SCC
+ SG_ CF_Gway_RKECmd : 3|3@1+ (1.0,0.0) [0.0|7.0] ""  CLU,ECS,EMS,IBOX,ECS,EMS,IBOX
+ SG_ CF_Gway_DrvKeyLockSw : 6|1@1+ (1.0,0.0) [0.0|1.0] ""  ECS,EMS,IBOX,ECS,EMS,IBOX
+ SG_ CF_Gway_DrvKeyUnlockSw : 7|1@1+ (1.0,0.0) [0.0|1.0] ""  ECS,EMS,IBOX,ECS,EMS,IBOX
+ SG_ CF_Gway_DrvDrSw : 8|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU,ECS,EMS,EPB,ESC,IBOX,SCC,TCU,ECS,EMS,EPB,ESC,IBOX,SCC,TCU
+ SG_ CF_Gway_DrvSeatBeltSw : 10|2@1+ (1.0,0.0) [0.0|3.0] ""  EMS,EPB,ESC,IBOX,PSB,TCU,EMS,EPB,ESC,IBOX,PSB,TCU
+ SG_ CF_Gway_TrunkTgSw : 12|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU,ECS,EMS,EPB,ESC,IBOX,ECS,EMS,EPB,ESC,IBOX
+ SG_ CF_Gway_AstSeatBeltSw : 14|2@1+ (1.0,0.0) [0.0|3.0] ""  IBOX,PSB,IBOX,PSB
+ SG_ CF_Gway_SMKOption : 16|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,EMS,IBOX,EMS,IBOX,SMK
+ SG_ CF_Gway_HoodSw : 17|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU,EMS,EPB,ESC,IBOX,EMS,EPB,ESC,IBOX
+ SG_ CF_Gway_TurnSigLh : 19|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU,EMS,IBOX,LCA,LDWS_LKAS,SCC,EMS,IBOX,LCA,LDWS_LKAS,SCC
+ SG_ CF_Gway_WiperIntT : 21|3@1+ (1.0,0.0) [0.0|7.0] ""  CLU,EMS,IBOX,LDWS_LKAS,EMS,ESC,IBOX,LDWS_LKAS
+ SG_ CF_Gway_WiperIntSw : 24|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,EMS,IBOX,LDWS_LKAS,EMS,ESC,IBOX,LDWS_LKAS
+ SG_ CF_Gway_WiperLowSw : 25|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,EMS,IBOX,LDWS_LKAS,EMS,ESC,IBOX,LDWS_LKAS
+ SG_ CF_Gway_WiperHighSw : 26|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,EMS,IBOX,LDWS_LKAS,EMS,ESC,IBOX,LDWS_LKAS
+ SG_ CF_Gway_WiperAutoSw : 27|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,EMS,IBOX,LDWS_LKAS,EMS,ESC,IBOX,LDWS_LKAS
+ SG_ CF_Gway_RainSnsState : 28|3@1+ (1.0,0.0) [0.0|7.0] ""  AFLS,EMS,IBOX,LDWS_LKAS,AFLS,EMS,ESC,IBOX,LDWS_LKAS
+ SG_ CF_Gway_HeadLampLow : 31|1@1+ (1.0,0.0) [0.0|1.0] ""  AFLS,CLU,EMS,IBOX,LDWS_LKAS,SNV,AFLS,EMS,IBOX,LDWS_LKAS,SNV
+ SG_ CF_Gway_HeadLampHigh : 32|1@1+ (1.0,0.0) [0.0|1.0] ""  AFLS,CLU,EMS,IBOX,LDWS_LKAS,AFLS,EMS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_HazardSw : 33|2@1+ (1.0,0.0) [0.0|3.0] ""  ABS,EMS,ESC,IBOX,LCA,LDWS_LKAS,ABS,EMS,ESC,IBOX,LCA,LDWS_LKAS
+ SG_ CF_Gway_AstDrSw : 35|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,IBOX,IBOX
+ SG_ CF_Gway_DefoggerRly : 36|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX,EMS,IBOX
+ SG_ CF_Gway_ALightStat : 37|1@1+ (1.0,0.0) [0.0|1.0] ""  AFLS,IBOX,LDWS_LKAS,AFLS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_LightSwState : 38|2@1+ (1.0,0.0) [0.0|3.0] ""  AFLS,IBOX,LDWS_LKAS,AFLS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_Frt_Fog_Act : 40|1@1+ (1.0,0.0) [0.0|1.0] ""  AFLS,CLU,IBOX,LDWS_LKAS,AFLS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_TSigRHSw : 41|1@1+ (1.0,0.0) [0.0|1.0] ""  IBOX,LDWS_LKAS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_TSigLHSw : 42|1@1+ (1.0,0.0) [0.0|1.0] ""  IBOX,LDWS_LKAS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_DriveTypeOption : 43|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,IBOX,LDWS_LKAS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_StarterRlyState : 44|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX,EMS,IBOX,SMK
+ SG_ CF_Gway_PassiveAccessLock : 45|2@1+ (1.0,0.0) [0.0|7.0] ""  CLU,ECS,EMS,IBOX,ECS,EMS,IBOX,SMK
+ SG_ CF_Gway_WiperMistSw : 47|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,EMS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_PassiveAccessUnlock : 48|2@1+ (1.0,0.0) [0.0|7.0] ""  CLU,ECS,EMS,IBOX,ECS,EMS,IBOX,SMK
+ SG_ CF_Gway_RrSunRoofOpenState : 50|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,DATC,IBOX
+ SG_ CF_Gway_PassingSW : 51|1@1+ (1.0,0.0) [0.0|1.0] ""  AFLS,IBOX,LDWS_LKAS,AFLS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_HBAControlMode : 52|1@1+ (1.0,0.0) [0.0|1.0] ""  IBOX,LDWS_LKAS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_HLpHighSw : 53|1@1+ (1.0,0.0) [0.0|1.0] ""  IBOX,LDWS_LKAS,IBOX,LDWS_LKAS
+ SG_ CF_Gway_InhibitRMT : 54|2@1+ (1.0,0.0) [0.0|3.0] ""  EMS,EPB,ESC,IBOX,LCA,LDWS_LKAS,MDPS,PGS,SCC,SPAS,TPMS,EPB,ESC,IBOX,LCA,LDWS_LKAS,PGS,SCC,SPAS,TPMS
+ SG_ CF_Gway_RainSnsOption : 56|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU
+ SG_ C_SunRoofOpenState : 57|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,DATC,IBOX,DATC,IBOX
+ SG_ CF_Gway_Ign1 : 58|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU
+ SG_ CF_Gway_Ign2 : 59|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU
+ SG_ CF_Gway_ParkBrakeSw : 60|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU,ESC,IBOX,SCC,ESC,IBOX,SCC
+ SG_ CF_Gway_TurnSigRh : 62|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU,EMS,IBOX,LCA,LDWS_LKAS,SCC,EMS,IBOX,LCA,LDWS_LKAS,SCC
+
+
+BO_ 275 TCU13: 8 TCU
+ SG_ N_TGT_LUP : 0|8@1+ (10.0,500.0) [500.0|3040.0] "rpm"  EMS,IBOX
+ SG_ SLOPE_TCU : 8|6@1+ (0.5,-16.0) [-16.0|15.5] "%"  CLU,CUBIS,EMS,IBOX
+ SG_ CF_Tcu_InhCda : 14|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX
+ SG_ CF_Tcu_IsgInhib : 15|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX
+ SG_ CF_Tcu_BkeOnReq : 16|2@1+ (1.0,0.0) [0.0|3.0] ""  EMS,IBOX
+ SG_ CF_Tcu_NCStat : 18|2@1+ (1.0,0.0) [0.0|3.0] ""  EMS,IBOX
+ SG_ CF_Tcu_TarGr : 20|4@1+ (1.0,0.0) [0.0|15.0] ""  _4WD,CLU,DATC,EMS,EPB,ESC,IBOX,SCC
+ SG_ CF_Tcu_ShfPatt : 24|4@1+ (1.0,0.0) [0.0|15.0] ""  CLU,CUBIS,EMS,IBOX
+ SG_ CF_Tcu_InhVis : 28|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX
+ SG_ CF_Tcu_PRelReq : 29|1@1+ (1.0,0.0) [0.0|1.0] ""  IBOX,LVR
+ SG_ CF_Tcu_ITPhase : 30|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX
+ SG_ CF_Tcu_ActEcoRdy : 31|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX
+ SG_ CF_Tcu_TqGrdLim : 32|8@1+ (10.0,0.0) [0.0|2540.0] "Nm/s"  EMS,IBOX
+ SG_ CR_Tcu_IsgTgtRPM : 40|8@1+ (20.0,0.0) [0.0|3500.0] "rpm"  EMS,IBOX
+ SG_ CF_Tcu_SptRdy : 48|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU,IBOX
+ SG_ CF_Tcu_SbwPInfo : 56|1@1+ (1.0,0.0) [0.0|1.0] ""  EMS,IBOX
+ SG_ CF_Tcu_Alive3 : 58|2@1+ (1.0,0.0) [0.0|3.0] ""  EMS,IBOX
+ SG_ CF_Tcu_ChkSum3 : 60|4@1+ (1.0,0.0) [0.0|15.0] ""  EMS,IBOX
+
+BO_ 1342 LKAS12: 6 LDWS_LKAS
+ SG_ CF_Lkas_TsrSlifOpt : 10|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU
+ SG_ CF_LkasTsrStatus : 12|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU
+ SG_ CF_Lkas_TsrSpeed_Display_Clu : 16|8@1+ (1.0,0.0) [0.0|255.0] ""  CLU
+ SG_ CF_LkasTsrSpeed_Display_Navi : 24|8@1+ (1.0,0.0) [0.0|255.0] ""  BCM,CLU
+ SG_ CF_Lkas_TsrAddinfo_Display : 32|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU
+ SG_ CF_LkasDawStatus : 40|3@1+ (1,0) [0|7] "" CLU
+ SG_ CF_Lkas_Daw_USM : 39|3@1+ (1,0) [0|7] "" CLU
+
+BO_ 832 LKAS11: 8 LDWS_LKAS
+    SG_ CF_Lkas_LdwsActivemode : 0|2@1+ (1,0) [0|3] "" CLU,IBOX,PSB
+    SG_ CF_Lkas_LdwsSysState : 2|4@1+ (1.0,0.0) [0.0|15.0] ""  CLU,IBOX,PSB
+    SG_ CF_Lkas_SysWarning : 6|4@1+ (1.0,0.0) [0.0|15.0] ""  BCM,CLU
+    SG_ CF_Lkas_LdwsLHWarning : 10|2@1+ (1.0,0.0) [0.0|3.0] ""  BCM,CLU,PSB
+    SG_ CF_Lkas_LdwsRHWarning : 12|2@1+ (1.0,0.0) [0.0|3.0] ""  BCM,CLU,PSB
+    SG_ CF_Lkas_HbaLamp : 14|1@1+ (1.0,0.0) [0.0|1.0] ""  CLU
+    SG_ CF_Lkas_FcwBasReq : 15|1@1+ (1.0,0.0) [0.0|1.0] ""  ABS,ESC
+    SG_ CR_Lkas_StrToqReq : 16|11@1+ (1.0,-1024.0) [-1024.0|1024.0] ""  MDPS
+    SG_ CF_Lkas_ActToi : 27|1@1+ (1.0,0.0) [0.0|1.0] ""  MDPS
+    SG_ CF_Lkas_ToiFlt : 28|1@1+ (1.0,0.0) [0.0|1.0] ""  MDPS
+    SG_ CF_Lkas_HbaSysState : 29|3@1+ (1.0,0.0) [0.0|7.0] ""  BCM,CLU
+    SG_ CF_Lkas_FcwOpt : 32|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU
+    SG_ CF_Lkas_HbaOpt : 34|2@1+ (1.0,0.0) [0.0|1.0] ""  BCM,CGW
+    SG_ CF_Lkas_MsgCount : 36|4@1+ (1.0,0.0) [0.0|15.0] ""  CLU,MDPS
+    SG_ CF_Lkas_FcwSysState : 40|3@1+ (1.0,0.0) [0.0|7.0] ""  CLU
+    SG_ CF_Lkas_FcwCollisionWarning : 43|2@1+ (1.0,0.0) [0.0|3.0] ""  CLU
+    SG_ CF_Lkas_FusionState : 45|2@1+ (1.0,0.0) [0.0|3.0] ""  SCC
+    SG_ CF_Lkas_Unknown1 : 47|1@1+ (1.0,0.0) [0.0|1.0] "" XXX
+    SG_ CF_Lkas_Chksum : 48|8@1+ (1.0,0.0) [0.0|255.0] ""  MDPS
+    SG_ CF_Lkas_FcwOpt_USM : 56|3@1+ (1.0,0.0) [0.0|7.0] ""  CLU
+    SG_ CF_Lkas_LdwsOpt_USM : 59|3@1+ (1.0,0.0) [0.0|7.0] ""  CLU,MDPS
+    SG_ CF_Lkas_Unknown2 : 62|2@1+ (1.0,0.0) [0.0|1.0] "" XXX
+
 
 BO_ 52 HU_DATC_E_02: 8 H_U
     SG_ HU_DATC_DrTempUpDn : 1|2@0+ (1,0) [0|0] ""  CGW,CLU,DATC,IPM
