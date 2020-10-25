@@ -174,7 +174,7 @@ ECU_FINGERPRINT = {
 }
 
 # Don't use these fingerprints for fingerprinting, they are still used for ECU detection
-IGNORED_FINGERPRINTS = [CAR.IONIQ_HEV]
+IGNORED_FINGERPRINTS = [CAR.IONIQ_HEV, CAR.SANTA_FE_2017]
 
 FW_VERSIONS = {
   CAR.SONATA: {
